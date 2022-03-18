@@ -24,6 +24,10 @@ class MainActivity : AppCompatActivity() {
         webView = findViewById(R.id.webView)
         webView.webViewClient = MyWebViewClient()
         webView.settings.javaScriptEnabled = true
+//        webView.settings.databaseEnabled = true
+        webView.settings.domStorageEnabled = true
+//        webView.settings.javaScriptCanOpenWindowsAutomatically = true
+        webView.settings.setGeolocationEnabled(true)
 
         dialog = Dialog(this, R.style.SplashTheme)
 

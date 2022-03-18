@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.Desheng">
+        android:theme="@style/SplashTheme">
         <activity
             android:name=".MainActivity"
             android:exported="false"
